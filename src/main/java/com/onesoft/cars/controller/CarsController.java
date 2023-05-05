@@ -17,7 +17,7 @@ import com.onesoft.cars.entity.Cars;
 import com.onesoft.cars.service.CarsService;
 
 @RestController
-@RequestMapping(value = "/car")
+@RequestMapping(value = "/CARS")
 public class CarsController {
 	@Autowired
 	CarsService carser;
